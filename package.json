@@ -1,32 +1,33 @@
 {
-  "name": "guidebot",
-  "version": "2.3.6",
-  "description": "A boilerplate example bot with command handler and reloadable commands. Updated and Maintained by the Idiot's Guide Community",
+  "name": "tamakun-monastery-bot",
+  "version": "1.3.0",
+  "description": "A custom bot for the Tamakun Monastery guild of Albion Online.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "postinstall": "node setup.js"
   },
   "engines": {
-    "node": ">=8"
+    "node": "10.x",
+    "npm": "*"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/An-Idiots-Guide/guidebot.git"
+    "url": "git+https://github.com/"
   },
-  "author": "Evelyne Lachance <eslachance@gmail.com> (http://evie.codes)",
+  "author": "Andrew Metzger <andrewjmetzger@users.noreply.github.com> (https://github.com/andrewjmetzger)",
   "contributors": [
-    "York (http://anidiots.guide)"
+    ""
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/An-Idiots-Guide/guidebot/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/An-Idiots-Guide/guidebot#readme",
+  "homepage": "",
   "dependencies": {
     "better-sqlite3": "^5.4.0",
     "chalk": "^2.4.2",
     "discord.js": "^11.5.1",
+    "dotenv": "^8.0.0",
     "enmap": "^5.0.0",
     "inquirer": "^6.3.1",
     "moment": "^2.24.0",
